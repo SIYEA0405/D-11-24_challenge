@@ -7,7 +7,5 @@ class State(Turtle):
         super().__init__()
         self.ht()
         self.penup()
-        self.speed(0)
-        self.color("black")
         self.goto(x, y)
-        self.write(arg=state, align="center")
+        self.write(arg=state)

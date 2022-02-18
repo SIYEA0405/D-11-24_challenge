@@ -21,9 +21,9 @@
 
 import pandas
 datas = pandas.read_csv("weather_data.csv")
-# print(datas["day"]) # day의 행에 가진 값들만 가져 온다
+# print(datas["day"]) # day의 열에 가진 값들만 가져 온다
 #
-# # datas_ = datas.to_dict() # 열에 있는 값들을 기준으로 행을 가져오고 dictionary로 만든다.
+# # datas_ = datas.to_dict() # 행에 있는 값들을 기준으로 열을 가져오고 dictionary로 만든다.
 # # print(datas_)
 #
 # temps = datas["temp"].tolist()
