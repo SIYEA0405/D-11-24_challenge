@@ -35,6 +35,6 @@ while correct_number < 50:
             State(word[0], word[1], word[2])
             leftover_list.remove(word[0])
             correct_number += 1
-pandas.DataFrame(leftover_list).to_csv("not_main_left_list.cvs")
+pandas.DataFrame(leftover_list).to_csv("main_left_list.cvs")
 
 screen.exitonclick()
